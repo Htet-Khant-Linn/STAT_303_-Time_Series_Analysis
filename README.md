@@ -43,8 +43,8 @@ To explore the code, you can clone this repository to your local machine:
 
 ```bash
 git clone [https://github.com/Htet-Khant-Linn/STAT_303_-Time_Series_Analysis.git](https://github.com/Htet-Khant-Linn/STAT_303_-Time_Series_Analysis.git)
+```
 
-
-**## ⚠️ Disclaimer**
+## ⚠️ Disclaimer
 
 The content in this repository is intended for educational and archival purposes only. If you are a current student in STAT 303, please use this as a reference but do not copy the code, as this violates academic integrity policies.
