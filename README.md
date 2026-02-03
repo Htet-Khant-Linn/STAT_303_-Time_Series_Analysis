@@ -42,7 +42,7 @@ The repository is organized into the following directories:
 To explore the code, you can clone this repository to your local machine:
 
 ```bash
-git clone [https://github.com/Htet-Khant-Linn/STAT_303_-Time_Series_Analysis.git](https://github.com/Htet-Khant-Linn/STAT_303_-Time_Series_Analysis.git)
+git clone https://github.com/Htet-Khant-Linn/STAT_303_-Time_Series_Analysis.git
 ```
 
 ## ⚠️ Disclaimer
