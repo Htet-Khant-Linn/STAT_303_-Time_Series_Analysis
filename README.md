@@ -33,7 +33,7 @@ The repository is organized into the following directories:
 ## 🛠️ Technologies Used
 
 * **Python**: The primary programming language for this course.
-* **Libraries**: (You can list specific libraries here later, e.g., pandas, statsmodels, matplotlib, numpy).
+* **Libraries**: TBD
 
 ---
 
