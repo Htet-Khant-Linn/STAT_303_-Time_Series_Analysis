@@ -111,6 +111,37 @@ for t in range(1, num_timesteps):
 
 df_ar2 = pd.DataFrame(data={"y":y}, index=ts)
 
+# Plot AR(1) process
+ax = df_ar2.plot(figsize=[10, 5])
+ax.set_title("AR(2) process")
+ax.set_ylabel("y")
+ax.set_xlabel("Time")
+
+fig, ax = plt.subplots(figsize=[10,5])
+plot_acf(
+    x = df_ar2,
+    lags= 36,
+    ax = ax,
+    alpha=0.05,
+    auto_ylims=True
+    );
+ax.set_title("Autocorrelation of AR(2) process")
+ax.set_ylabel("Autocorrelation")
+ax.set_xlabel("Lag")
+
+fig,ax = plt.subplots(figsize=[10,5])
+plot_pacf(
+    x=df_ar2,
+    method= "ywmle",
+    lags = 50,
+    ax = ax,
+    alpha=0.05,
+    auto_ylims=True
+    );
+ax.set_title("Parial autocorrelation of AR(2) process")
+ax.set_ylabel("Partial autcorrelation")
+ax.set_xlabel("Lag")
+plt.tight_layout()
 
 
 
